@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    &:before,
+    &:after {
+        font-family: 'Webfonts';
+    }
+}   
+a {
+    text-decoration: none;
+}   
+ul {
+    list-style: none;
+}
+body {
+    background: $Light;
+}
+.container {
+    @include container();
+}
+.row {
+    @include row(0);
+}
+
+.icon {
+    &-moon::before{
+        content: '\f186';
+        font-weight: 900;
+    }
+    &-call::before{
+        content: '\f879';
+        font-weight: 500;
+    }
+    &-call2::before{
+        content: '\f2a0';
+        font-weight: 500;
+    }
+    &-menu::before{
+        content: '\f009';
+        font-weight:300;
+    }
+    &-burger::before {
+        content: '\f0c9';
+        font-weight: 300;
+    }
+    &-tg::before {
+        content: '\f2c6';
+        font-weight: 500;
+    }
+    &-left::before{
+        content: '\f32e';
+        font-weight: 900;
+    }
+    &-right::before{
+        content: '\f330';
+        font-weight: 900;
+    }
+    &-check::before{
+        content: '\f00c';
+        font-weight: 400;
+    }
+    &-clock::before{
+        content: '\f017';
+        font-weight: 300;
+    }
+    &-cross::before{
+        content: '\f00d';
+        font-weight: 300;
+    }
+
+
+    &-vk::before{
+        content: '\f189';
+        font-weight: 400;
+    }
+    &-file::before{
+        content: '\f574';
+        font-weight: 500;
+    }
+    &-search::before{
+        content: '\f002';
+        font-weight: 500;
+    }
+    &-user::before{
+        content: '\f007';
+        font-weight: 500;
+    }
+    &-cart::before{
+        content: '\f07a';
+        font-weight: 500;
+    }
+    &-heart::before{
+        content: '\f004';
+        font-weight: 400;
+    }
+    &-restrount::before{
+        content: '\f2e7';
+        font-weight: 300;
+    }
+    &-food::before{
+        content: '\f814';
+        font-weight: 300;
+    }
+    &-bed::before{
+        content: '\f236';
+        font-weight: 500;
+    }
+    &-coffee::before{
+        content: '\f7b6';
+        font-weight: 500;
+    }
+    &-spagetee::before{
+        content: '\f6d6';
+        font-weight: 400;
+    }
+    &-pie::before{
+        content: '\f705';
+        font-weight: 400;
+    }
+    &-pizza::before{
+        content: '\f818';
+        font-weight: 400;
+    }
+    &-meat::before{
+        content: '\f814';
+        font-weight: 500;
+    }
+    &-visa::before{
+        content: '\f1f0';
+        font-weight: 500;
+    }
+    &-mcard::before{
+        content: '\f1f1';
+        font-weight: 500;
+    }
+    &-card::before{
+        content: '\f1f4';
+        font-weight: 500;
+    }
+    &-pay::before{
+        content: '\f42d';
+        font-weight: 500;
+    }
+
+}
